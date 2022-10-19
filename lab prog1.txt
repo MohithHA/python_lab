@@ -1,0 +1,63 @@
+a = int(input("enter num 1: "))
+b = int(input("enter num 2: "))
+print(a + b)
+
+num = float(input('Enter a number: '))
+num_sqrt = num ** 0.5
+print(num_sqrt)
+
+height = float(input('Enter first side: '))
+base= float(input('Enter second side: '))
+area=(0.5*base*height)
+print('The area of the triangle is' +str(area))
+
+x = input('Enter value of x: ')
+y = input('Enter value of y: ')
+temp = x
+x = y
+y = temp
+print('The value of x after swapping: '+ str(x))
+print('The value of y after swapping: '+ str(y))
+
+x = input('Enter value of x: ')
+y = input('Enter value of y: ')
+x, y = y, x
+print("x =", x)
+print("y =", y)
+
+x = int(input('Enter value of x: '))
+y = int(input('Enter value of y: '))
+x = x + y
+y = x - y
+x = x - y
+print("x =",x)
+print("y =", y)
+
+x = int(input('Enter value of x: '))
+y = int(input('Enter value of y: '))
+x = x * y
+y = x // y
+x = x // y
+print("x =",x)
+print("y =", y)
+
+x = int(input('Enter value of x: '))
+y = int(input('Enter value of y: '))
+x = x ^ y
+y = x ^ y
+x = x ^ y
+print("x =",x)
+print("y =", y)
+
+x = int(input('enter the speed in KM: '))
+miles = x * 0.621371
+print(miles)
+
+a = float(input('enter the value of a: '))
+b = float(input('enter the value of b: '))
+c = float(input('enter the value of c: '))
+d = (b*b) - (4*a*c)
+x1 = (-b - (d ** 0.5))/(2*a)
+x2 = (-b + (d ** 0.5))/(2*a)
+print(x1,x2)
+
