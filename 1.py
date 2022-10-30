@@ -1,4 +1,5 @@
-a = int(input("Enter the first number:"))
-b = int(input("Enter the second number:"))
-c = a + b
-print("The sum of two number=" + str(c))
+i=2
+if(i%2==0):
+ print('entered number is even')
+else:
+ print('entered number is odd')

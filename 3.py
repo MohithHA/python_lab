@@ -1,4 +1,8 @@
-b = int(input("Enter the base of a triangle:"))
-h = int(input("Enter the height of a triangle:"))
-area = 0.5 * b * h
-print("The area of a triangle is " + str(area))
+num = float(input("Enter a number: "))
+if num >= 0:
+   if num == 0:
+       print("Zero")
+   else:
+       print("Positive number")
+else:
+   print("Negative number")

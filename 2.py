@@ -1,3 +1,7 @@
-num = float(input("Enter the number:"))
-s = num**0.5
-print("The square root of a given number is " + str(s))
+i=-1
+if(i<0):
+    print('the number is negative')
+elif(i>0):
+    print('the number is positive')
+else:
+    print('the number is zero')
