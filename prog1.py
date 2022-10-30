@@ -1,0 +1,5 @@
+a=input("enter two number")
+print("welcome"+str(a))
+b=input("1")
+c=input("2")
+print("solution is"a+b)
